@@ -1,0 +1,46 @@
+.recipe{
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(129, 121, 121, 0.8);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background:rgb(221, 211, 211);
+    align-items: center;
+    min-width: 40%;
+    min-height: 50%;
+    max-width: 40%;
+    max-height: 40%;
+}
+.img{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    display: block;
+}
+
+.orderList{
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    font-size:inherit;
+    font-family: cursive;
+    color: #346970;
+    /* max-width: 50%; */
+}
+.calories{
+font-family: cursive;
+color: #e44b09;    
+font-size:20px
+}
+
+.img:hover{
+    transform: scale(1.1);
+    transform: rotate(360deg);
+    transition: 4s ease-in-out;
+}
+.title{
+    text-align: center;
+    font-family: cursive;
+}
